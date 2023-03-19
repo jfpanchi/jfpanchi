@@ -16,11 +16,8 @@ Here are some ideas to get you started:
 
 # Software Engineer 👨‍🎓
 
-
-## Portfolio
-
 <a  href="https://jfpanchi.github.io/portafolio-web-frontend/" target="_blank">
-<img src='https://img.shields.io/static/v1?style=for-the-badge&message=Files&color=4285F4&logo=Files&logoColor=FFFFFF&label=Portfolio'>
+<img src='https://img.shields.io/static/v1?style=for-the-badge&message=Files&color=4285F4&logo=Files&logoColor=FFFFFF&label=Portfolio Frontend Web'>
 </a>
 
 #

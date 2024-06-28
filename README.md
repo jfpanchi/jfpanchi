@@ -7,7 +7,7 @@
 ## 🎓 About me
 
 <div align="justify">
-Software Engineer 👨‍🎓, with experience in <b>web systems</b> management and development, <b>cybersecurity</b> enthusiast. I define myself as a person passionate about <b>creativity</b> and innovation, with a deep interest in creating exceptional and reliable <b>user experiences</b>. I am committed to the constant process of <b>self-learning</b> and continuous improvement of my skills. My main motivation is to contribute to the cause of supporting and <b>serving</b> others.
+Software Engineer 👨‍🎓, with experience in <b>web systems</b> management and development, <b>cybersecurity</b> enthusiast. I define myself as a person passionate about <b>creativity</b> and innovation, with a deep interest in creating safe <b>user experiences</b>. I am committed to the constant process of <b>self-learning</b> and continuous improvement of my skills. My main motivation is to contribute to the cause of supporting and <b>serving</b> others.
 </div>
 
 ## 💻 Web developer

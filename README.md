@@ -1,8 +1,4 @@
-<div align="center">
 
-# Software Engineer 👨‍🎓
-
-</div>
 
 <!-- <a  href="https://jfpanchi.github.io/portafolio-web-frontend/" target="_blank">
 <img src='https://img.shields.io/static/v1?style=for-the-badge&message=Files&color=4285F4&logo=Files&logoColor=FFFFFF&label=Portfolio Frontend Web'>
@@ -11,10 +7,10 @@
 ## 🎓 About me
 
 <div align="justify">
-Software Engineer, with experience in <b>web systems</b> management and development, <b>cybersecurity</b> enthusiast. I define myself as a person passionate about <b>creativity</b> and innovation, with a deep interest in creating exceptional and reliable <b>user experiences</b>. I am committed to the constant process of <b>self-learning</b> and continuous improvement of my skills. My main motivation is to contribute to the cause of supporting and <b>serving</b> others.
+Software Engineer 👨‍🎓, with experience in <b>web systems</b> management and development, <b>cybersecurity</b> enthusiast. I define myself as a person passionate about <b>creativity</b> and innovation, with a deep interest in creating exceptional and reliable <b>user experiences</b>. I am committed to the constant process of <b>self-learning</b> and continuous improvement of my skills. My main motivation is to contribute to the cause of supporting and <b>serving</b> others.
 </div>
 
-## 💻 Web Developer
+## 💻 Web developer
 
 <img align='right' src="https://i.pinimg.com/originals/e4/26/70/e426702edf874b181aced1e2fa5c6cde.gif" width="230">
 <div align="left">

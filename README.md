@@ -1,9 +1,3 @@
-
-
-<!-- <a  href="https://jfpanchi.github.io/portafolio-web-frontend/" target="_blank">
-<img src='https://img.shields.io/static/v1?style=for-the-badge&message=Files&color=4285F4&logo=Files&logoColor=FFFFFF&label=Portfolio Frontend Web'>
-</a> -->
-
 ## 🎓 About me
 
 <div align="justify">
@@ -42,12 +36,13 @@ Software Engineer 👨‍🎓, with experience in <b>web systems</b> management 
   
 ###  Learning 🌱
 
-
-|  |
-|--|
-| <img src="https://img.shields.io/badge/next%20js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white"> |
+<img src="https://img.shields.io/badge/next%20js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white"> 
 
 </div>
+
+<a  href="https://jefferson-panchi.vercel.app/" target="_blank">
+<img src='https://img.shields.io/static/v1?style=for-the-badge&message=🔗&color=4285F4&logo=Files&logoColor=FFFFFF&label=Portfolio Web developer'>
+</a>
 
 ## 🏁 Github Stats:
 

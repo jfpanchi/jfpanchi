@@ -73,8 +73,7 @@ Software Engineer with progressive knowledge in web systems development and mana
 
 <div align="center">
   <a href="https://jefferson-panchi.vercel.app/" target="_blank">
-    <img src="https://img.shields.io/badge/Visit my
-     Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white" alt="Visit my Portfolio" />
+    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white" alt="Visit my Portfolio" />
   </a>
 </div>
 

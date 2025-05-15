@@ -15,6 +15,7 @@ Software Engineer with progressive knowledge in web systems development and mana
 ## 🛠️ My Toolbox
 
 ### Programming Languages
+
 <div align="left">
   <img src="https://img.shields.io/badge/JavaScript-000000?style=for-the-badge&logo=javascript&logoColor=white" height="24">
   <img src="https://img.shields.io/badge/TypeScript-000000?style=for-the-badge&logo=typescript&logoColor=white" height="24">
@@ -22,6 +23,7 @@ Software Engineer with progressive knowledge in web systems development and mana
 </div>
 
 ### Frontend
+
 <div align="left">
   <img src="https://img.shields.io/badge/HTML5-000000?style=for-the-badge&logo=html5&logoColor=white" height="24">
   <img src="https://img.shields.io/badge/CSS3-000000?style=for-the-badge&logo=css3&logoColor=white" height="24">
@@ -33,6 +35,7 @@ Software Engineer with progressive knowledge in web systems development and mana
 </div>
 
 ### Backend
+
 <div align="left">
   <img src="https://img.shields.io/badge/Node.js-000000?style=for-the-badge&logo=node.js&logoColor=white" height="24">
   <img src="https://img.shields.io/badge/Laravel-000000?style=for-the-badge&logo=laravel&logoColor=white" height="24">
@@ -42,16 +45,19 @@ Software Engineer with progressive knowledge in web systems development and mana
 </div>
 
 ### CMS
+
 <div align="left">
   <img src="https://img.shields.io/badge/Wordpress-000000?style=for-the-badge&logo=wordpress&logoColor=white" height="24">
 </div>
 
 ## 📓 Currently Learning
+
 <div align="center">
   <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white">
 </div>
 
 ## ♟ GitHub Stats
+
 <table>
   <tr>
     <td width="50%">
@@ -64,9 +70,11 @@ Software Engineer with progressive knowledge in web systems development and mana
 </table>
 
 ## 🔌 Let's Connect!
+
 <div align="center">
   <a href="https://jefferson-panchi.vercel.app/" target="_blank">
-    <img src='https://img.shields.io/static/v1?style=for-the-badge&message=🚀&color=000000&logo=Files&logoColor=FFFFFF&label=Visit+my+Portfolio'>
+    <img src="https://img.shields.io/badge/Visit my
+     Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white" alt="Visit my Portfolio" />
   </a>
 </div>
 

@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=40&pause=1000&color=000000&center=true&vCenter=true&width=600&height=100&lines=Full+Stack+Web+Developer;Cybersecurity+Enthusiast;Creative+by+Nature" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=40&pause=1000&color=000000&center=true&vCenter=true&width=600&height=100&lines=Full+Stack+Developer;Cybersecurity+Enthusiast;Creative+by+Nature" alt="Typing SVG" />
 </div>
 
 <div align="center">
@@ -26,12 +26,16 @@ Software Engineer with progressive knowledge in web systems development and mana
 
 <div align="left">
   <img src="https://img.shields.io/badge/HTML5-000000?style=for-the-badge&logo=html5&logoColor=white" height="24">
-  <img src="https://img.shields.io/badge/CSS3-000000?style=for-the-badge&logo=css3&logoColor=white" height="24">
+  <img src="https://img.shields.io/badge/CSS3-000000?style=for-the-badge&logo=css&logoColor=white" height="24">
   <img src="https://img.shields.io/badge/Bootstrap-000000?style=for-the-badge&logo=bootstrap&logoColor=white" height="24">
   <img src="https://img.shields.io/badge/Tailwind-000000?style=for-the-badge&logo=tailwind-css&logoColor=white" height="24">
   <img src="https://img.shields.io/badge/React-000000?style=for-the-badge&logo=react&logoColor=white" height="24">
-  <img src="https://img.shields.io/badge/Redux-000000?style=for-the-badge&logo=redux&logoColor=white" height="24">
-  <img src="https://img.shields.io/badge/Angular-000000?style=for-the-badge&logo=angular&logoColor=white" height="24">
+  <img src="https://img.shields.io/badge/Redux-000000?style=for-the-badge&logo=redux&logoColor=white" height="24">  
+ <img src="https://img.shields.io/badge/Zustand-000000?style=for-the-badge&logo=zustand&logoColor=white" height="24">
+  <img src="https://img.shields.io/badge/ReactQuery-000000?style=for-the-badge&logo=reactquery&logoColor=white" height="24">
+  <img src="https://img.shields.io/badge/Shadcn-000000?style=for-the-badge&logo=shadcn/ui&logoColor=white" height="24">
+  <img src="https://img.shields.io/badge/Radix-000000?style=for-the-badge&logo=radix-ui&logoColor=white" height="24">
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" height="24">
 </div>
 
 ### Backend
@@ -53,7 +57,8 @@ Software Engineer with progressive knowledge in web systems development and mana
 ## 📓 Currently Learning
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white">
+  <img src="https://img.shields.io/badge/ReactNative-000000?style=for-the-badge&logo=react&logoColor=white" height="24">
+  <img src="https://img.shields.io/badge/Expo-000000?style=for-the-badge&logo=expo&logoColor=white" height="24">  
 </div>
 
 ## ♟ GitHub Stats

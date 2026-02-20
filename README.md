@@ -27,7 +27,6 @@ Software Engineer with progressive knowledge in web systems development and mana
 <div align="left">
   <img src="https://img.shields.io/badge/HTML5-000000?style=for-the-badge&logo=html5&logoColor=white" height="24">
   <img src="https://img.shields.io/badge/CSS3-000000?style=for-the-badge&logo=css&logoColor=white" height="24">
-  <img src="https://img.shields.io/badge/Bootstrap-000000?style=for-the-badge&logo=bootstrap&logoColor=white" height="24">
   <img src="https://img.shields.io/badge/Tailwind-000000?style=for-the-badge&logo=tailwind-css&logoColor=white" height="24">
   <img src="https://img.shields.io/badge/React-000000?style=for-the-badge&logo=react&logoColor=white" height="24">
   <img src="https://img.shields.io/badge/Redux-000000?style=for-the-badge&logo=redux&logoColor=white" height="24">  
@@ -63,16 +62,10 @@ Software Engineer with progressive knowledge in web systems development and mana
 
 ## ♟ GitHub Stats
 
-<table>
-  <tr>
-    <td width="50%">
-      <img height="180em" src="https://github-readme-stats-7yhlrmemk-1chooo.vercel.app/api?username=jfpanchi&theme=dark&count_private=true&hide_border=true&line_height=20" alt="github-stats" />
-    </td>
-    <td width="50%">
-      <img height="180em" src="https://github-readme-stats-7yhlrmemk-1chooo.vercel.app/api/top-langs/?username=jfpanchi&hide=jupyter%20notebook,html&layout=compact&theme=dark&count_private=true&hide_border=true" alt="top-languages" />
-    </td>
-  </tr>
-</table>
+
+<div align="center">
+  <img height="180em" src="https://streak-stats.demolab.com?user=jfpanchi&theme=dark&background=000000&fire=ffffff&ring=ffffff&currStreakNum=ffffff&currStreakLabel=ffffff&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true" alt="github-streak" />
+</div>
 
 ## 🔌 Let's Connect!
 

@@ -51,13 +51,6 @@ Software Engineer with progressive knowledge in web systems development and mana
   </picture>
 </h3>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/languages-dark.svg">
-  <img src="assets/languages-light.svg" width="100%" alt="Most used languages across my repositories">
-</picture>
-
-<br><br>
-
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=jfpanchi&theme=dark&background=000000&border=FFFFFF&stroke=FFFFFF&ring=FFFFFF&fire=FFFFFF&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=FFFFFF&sideLabels=FFFFFF&dates=9198A1&border_radius=16">

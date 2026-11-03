@@ -16,7 +16,6 @@ Uso:
 
 import base64
 import io
-import json
 import re
 from pathlib import Path
 from xml.sax.saxutils import escape
@@ -392,90 +391,7 @@ def build_button(theme):
     write("portfolio", theme, svg)
 
 
-# --- Lenguajes más usados ----------------------------------------------------
-# Datos generados por scripts/fetch_languages.py (lo ejecuta el GitHub Action).
-LANGUAGES_JSON = ROOT / "assets" / "languages.json"
-TOP_LANGUAGES = 6  # el resto se agrupa en "Other"
-
-
-def patterns(t):
-    """Tramas en blanco y negro para distinguir lenguajes sin usar colores."""
-    fg, bg = t["fg"], t["bg"]
-    defs = {
-        "solid": f'<rect width="8" height="8" fill="{fg}"/>',
-        "stripes": f'<rect width="8" height="8" fill="{bg}"/><path d="M-2 2 2-2M0 8 8 0M6 10 10 6" stroke="{fg}" stroke-width="2.2"/>',
-        "dots": f'<rect width="8" height="8" fill="{bg}"/><circle cx="4" cy="4" r="1.6" fill="{fg}"/>',
-        "grid": f'<rect width="8" height="8" fill="{bg}"/><path d="M0 4H8M4 0V8" stroke="{fg}" stroke-width="1.4"/>',
-        "lines": f'<rect width="8" height="8" fill="{bg}"/><path d="M0 2H8M0 6H8" stroke="{fg}" stroke-width="1.4"/>',
-        "back": f'<rect width="8" height="8" fill="{bg}"/><path d="M10 2 6-2M8 8 0 0M2 10-2 6" stroke="{fg}" stroke-width="1.2"/>',
-        "empty": f'<rect width="8" height="8" fill="{bg}"/>',
-    }
-    out = "".join(
-        f'<pattern id="p-{k}" width="8" height="8" patternUnits="userSpaceOnUse">{v}</pattern>'
-        for k, v in defs.items()
-    )
-    return f"<defs>{out}</defs>", list(defs)
-
-
-def build_languages(theme, data):
-    t = THEMES[theme]
-    langs = data["languages"]
-    total = sum(l["bytes"] for l in langs) or 1
-    top = [(l["name"], l["bytes"] / total) for l in langs[:TOP_LANGUAGES]]
-    rest = 1 - sum(p for _, p in top)
-    if len(langs) > TOP_LANGUAGES and rest > 0:
-        top.append(("Other", rest))
-
-    W, cols, row_h = 900, 2, 34
-    rows = -(-len(top) // cols)
-    legend_y = 112
-    H = int(legend_y + rows * row_h + 26)
-    svg = Svg(W, H, "Most used languages: " + ", ".join(f"{n} {p * 100:.1f}%" for n, p in top))
-    block(svg, 4, 4, W - 16, H - 16, 18, t, off=8)
-    defs, names = patterns(t)
-    svg.add(defs)
-
-    # Cabecera de la tarjeta
-    svg.text(32, 46, "> ", "monobold", 13, t["muted"])
-    svg.text(32 + text_width("monobold", "> ", 13), 46, "MOST USED LANGUAGES", "monobold", 13, t["fg"], 'letter-spacing="1"')
-    note = f"{data['repos']} repos"
-    svg.text(W - 44 - text_width("mono", note, 12.5), 46, note, "mono", 12.5, t["muted"])
-
-    # Barra apilada con una trama por lenguaje
-    bx, by, bw, bh = 32, 64, W - 76, 24
-    svg.add(f'<clipPath id="bar"><rect x="{bx}" y="{by}" width="{bw}" height="{bh}" rx="8"/></clipPath><g clip-path="url(#bar)">')
-    x = bx
-    for i, (_, p) in enumerate(top):
-        w = bw * p
-        svg.add(f'<rect x="{x:.2f}" y="{by}" width="{w:.2f}" height="{bh}" fill="url(#p-{names[i]})"/>')
-        if i:
-            svg.add(f'<line x1="{x:.2f}" y1="{by}" x2="{x:.2f}" y2="{by + bh}" stroke="{t["fg"]}" stroke-width="2"/>')
-        x += w
-    svg.add("</g>")
-    svg.add(f'<rect x="{bx}" y="{by}" width="{bw}" height="{bh}" rx="8" fill="none" stroke="{t["fg"]}" stroke-width="2"/>')
-
-    # Leyenda en dos columnas: trama, nombre y porcentaje
-    col_w = (bw - 40) / cols
-    for i, (name, p) in enumerate(top):
-        c, r = divmod(i, rows)
-        x0 = bx + c * (col_w + 40)
-        y0 = legend_y + r * row_h
-        svg.add(f'<rect x="{x0}" y="{y0}" width="18" height="18" rx="4" fill="url(#p-{names[i]})" stroke="{t["fg"]}" stroke-width="1.6"/>')
-        svg.text(x0 + 30, y0 + 14, name, "mono", 14, t["fg"])
-        pct = f"{p * 100:.1f}%"
-        px = x0 + col_w - text_width("monobold", pct, 14)
-        svg.add(
-            f'<line x1="{x0 + 38 + text_width("mono", name, 14):.1f}" y1="{y0 + 10}" x2="{px - 10:.1f}" y2="{y0 + 10}" '
-            f'stroke="{t["soft"]}" stroke-width="1.5" stroke-dasharray="1 5" stroke-linecap="round"/>'
-        )
-        svg.text(px, y0 + 14, pct, "monobold", 14, t["fg"])
-    write("languages", theme, svg)
-
-
 def main():
-    languages = None
-    if LANGUAGES_JSON.exists():
-        languages = json.loads(LANGUAGES_JSON.read_text(encoding="utf-8"))
     for theme in THEMES:
         print(f"[{theme}]")
         build_header(theme)
@@ -484,8 +400,6 @@ def main():
         build_toolbox(theme)
         build_learning(theme)
         build_button(theme)
-        if languages:
-            build_languages(theme, languages)
 
 
 if __name__ == "__main__":

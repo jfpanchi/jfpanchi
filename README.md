@@ -1,78 +1,75 @@
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=40&pause=1000&color=000000&center=true&vCenter=true&width=600&height=100&lines=Full+Stack+Developer;Cybersecurity+Enthusiast;Creative+by+Nature" alt="Typing SVG" />
+  <a href="https://jefferson-panchi.vercel.app/">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
+      <img src="assets/header-light.svg" width="100%" alt="Jefferson Panchi — Software Engineer: Full Stack Developer, Cybersecurity Enthusiast, Creative by Nature">
+    </picture>
+  </a>
+  <br><br>
+  <img src="banner.gif" width="320" alt="Pixel-art developer coding at night with two cats">
 </div>
+
+<br>
+
+<h3>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/title-about-dark.svg">
+    <img src="assets/title-about-light.svg" height="56" alt="About Me">
+  </picture>
+</h3>
+
+Software Engineer with progressive knowledge in web systems development and management, with great enthusiasm for venturing into **cybersecurity**. I describe myself as creative and inventive, with an established focus on creating **secure and reliable user experiences**. I enjoy volunteering, motivated by the opportunity to support and serve others.
+
+<h3>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/title-toolbox-dark.svg">
+    <img src="assets/title-toolbox-light.svg" height="56" alt="My Toolbox">
+  </picture>
+</h3>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/toolbox-dark.svg">
+  <img src="assets/toolbox-light.svg" width="100%" alt="Languages: JavaScript, TypeScript, PHP. Frontend: HTML5, CSS3, Tailwind, React, Redux, Zustand, React Query, shadcn/ui, Radix, Next.js. Backend: Node.js, Laravel, Express, MySQL, MongoDB. CMS: WordPress.">
+</picture>
+
+<h3>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/title-learning-dark.svg">
+    <img src="assets/title-learning-light.svg" height="56" alt="Currently Learning">
+  </picture>
+</h3>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/learning-dark.svg">
+  <img src="assets/learning-light.svg" height="48" alt="React Native, Expo">
+</picture>
+
+<h3>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/title-stats-dark.svg">
+    <img src="assets/title-stats-light.svg" height="56" alt="GitHub Stats">
+  </picture>
+</h3>
 
 <div align="center">
-  <img src="banner.gif" width="300">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=jfpanchi&theme=dark&background=000000&border=FFFFFF&stroke=FFFFFF&ring=FFFFFF&fire=FFFFFF&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=FFFFFF&sideLabels=FFFFFF&dates=9198A1&border_radius=16">
+    <img height="180" src="https://streak-stats.demolab.com?user=jfpanchi&background=FFFFFF&border=000000&stroke=000000&ring=000000&fire=000000&currStreakNum=000000&sideNums=000000&currStreakLabel=000000&sideLabels=000000&dates=57606A&border_radius=16" alt="GitHub streak stats for jfpanchi">
+  </picture>
 </div>
 
-## 🎓 About Me
-
-<div align="justify">
-Software Engineer with progressive knowledge in web systems development and management, with great enthusiasm for venturing into cybersecurity. I describe myself as creative and inventive, with an established focus on creating secure and reliable user experiences. I enjoy volunteering, motivated by the opportunity to support and serve others.
-</div>
-
-## 🛠️ My Toolbox
-
-### Programming Languages
-
-<div align="left">
-  <img src="https://img.shields.io/badge/JavaScript-000000?style=for-the-badge&logo=javascript&logoColor=white" height="24">
-  <img src="https://img.shields.io/badge/TypeScript-000000?style=for-the-badge&logo=typescript&logoColor=white" height="24">
-  <img src="https://img.shields.io/badge/PHP-000000?style=for-the-badge&logo=php&logoColor=white" height="24">
-</div>
-
-### Frontend
-
-<div align="left">
-  <img src="https://img.shields.io/badge/HTML5-000000?style=for-the-badge&logo=html5&logoColor=white" height="24">
-  <img src="https://img.shields.io/badge/CSS3-000000?style=for-the-badge&logo=css&logoColor=white" height="24">
-  <img src="https://img.shields.io/badge/Tailwind-000000?style=for-the-badge&logo=tailwind-css&logoColor=white" height="24">
-  <img src="https://img.shields.io/badge/React-000000?style=for-the-badge&logo=react&logoColor=white" height="24">
-  <img src="https://img.shields.io/badge/Redux-000000?style=for-the-badge&logo=redux&logoColor=white" height="24">  
- <img src="https://img.shields.io/badge/Zustand-000000?style=for-the-badge&logo=zustand&logoColor=white" height="24">
-  <img src="https://img.shields.io/badge/ReactQuery-000000?style=for-the-badge&logo=reactquery&logoColor=white" height="24">
-  <img src="https://img.shields.io/badge/Shadcn-000000?style=for-the-badge&logo=shadcn/ui&logoColor=white" height="24">
-  <img src="https://img.shields.io/badge/Radix-000000?style=for-the-badge&logo=radix-ui&logoColor=white" height="24">
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" height="24">
-</div>
-
-### Backend
-
-<div align="left">
-  <img src="https://img.shields.io/badge/Node.js-000000?style=for-the-badge&logo=node.js&logoColor=white" height="24">
-  <img src="https://img.shields.io/badge/Laravel-000000?style=for-the-badge&logo=laravel&logoColor=white" height="24">
-  <img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white" height="24">
-  <img src="https://img.shields.io/badge/MySQL-000000?style=for-the-badge&logo=mysql&logoColor=white" height="24">
-  <img src="https://img.shields.io/badge/MongoDB-000000?style=for-the-badge&logo=mongodb&logoColor=white" height="24">
-</div>
-
-### CMS
-
-<div align="left">
-  <img src="https://img.shields.io/badge/Wordpress-000000?style=for-the-badge&logo=wordpress&logoColor=white" height="24">
-</div>
-
-## 📓 Currently Learning
+<h3>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/title-connect-dark.svg">
+    <img src="assets/title-connect-light.svg" height="56" alt="Let's Connect!">
+  </picture>
+</h3>
 
 <div align="center">
-  <img src="https://img.shields.io/badge/ReactNative-000000?style=for-the-badge&logo=react&logoColor=white" height="24">
-  <img src="https://img.shields.io/badge/Expo-000000?style=for-the-badge&logo=expo&logoColor=white" height="24">  
-</div>
-
-## ♟ GitHub Stats
-
-
-<div align="center">
-  <img height="180em" src="https://streak-stats.demolab.com?user=jfpanchi&theme=dark&background=000000&fire=ffffff&ring=ffffff&currStreakNum=ffffff&currStreakLabel=ffffff&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true" alt="github-streak" />
-</div>
-
-## 🔌 Let's Connect!
-
-<div align="center">
-  <a href="https://jefferson-panchi.vercel.app/" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white" alt="Visit my Portfolio" />
+  <a href="https://jefferson-panchi.vercel.app/">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/portfolio-dark.svg">
+      <img src="assets/portfolio-light.svg" height="60" alt="Visit my portfolio">
+    </picture>
   </a>
 </div>
-
----

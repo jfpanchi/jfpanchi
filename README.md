@@ -14,7 +14,7 @@
 <h3>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/title-about-dark.svg">
-    <img src="assets/title-about-light.svg" height="64" alt="About Me">
+    <img src="assets/title-about-light.svg" height="56" alt="About Me">
   </picture>
 </h3>
 
@@ -23,7 +23,7 @@ Software Engineer with progressive knowledge in web systems development and mana
 <h3>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/title-toolbox-dark.svg">
-    <img src="assets/title-toolbox-light.svg" height="64" alt="My Toolbox">
+    <img src="assets/title-toolbox-light.svg" height="56" alt="My Toolbox">
   </picture>
 </h3>
 
@@ -35,7 +35,7 @@ Software Engineer with progressive knowledge in web systems development and mana
 <h3>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/title-learning-dark.svg">
-    <img src="assets/title-learning-light.svg" height="64" alt="Currently Learning">
+    <img src="assets/title-learning-light.svg" height="56" alt="Currently Learning">
   </picture>
 </h3>
 
@@ -47,21 +47,21 @@ Software Engineer with progressive knowledge in web systems development and mana
 <h3>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/title-stats-dark.svg">
-    <img src="assets/title-stats-light.svg" height="64" alt="GitHub Stats">
+    <img src="assets/title-stats-light.svg" height="56" alt="GitHub Stats">
   </picture>
 </h3>
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=jfpanchi&background=1A1A22&border=F5F3FF&stroke=F5F3FF&ring=B9A7F5&fire=FF8A7A&currStreakNum=F5F3FF&sideNums=F5F3FF&currStreakLabel=B9A7F5&sideLabels=CFCCDE&dates=CFCCDE&border_radius=20">
-    <img height="180" src="https://streak-stats.demolab.com?user=jfpanchi&background=FFFFFF&border=17171C&stroke=17171C&ring=9C8CF0&fire=FF8A7A&currStreakNum=17171C&sideNums=17171C&currStreakLabel=9C8CF0&sideLabels=3F3D4A&dates=3F3D4A&border_radius=20" alt="GitHub streak stats for jfpanchi">
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=jfpanchi&theme=dark&background=000000&border=FFFFFF&stroke=FFFFFF&ring=FFFFFF&fire=FFFFFF&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=FFFFFF&sideLabels=FFFFFF&dates=9198A1&border_radius=16">
+    <img height="180" src="https://streak-stats.demolab.com?user=jfpanchi&background=FFFFFF&border=000000&stroke=000000&ring=000000&fire=000000&currStreakNum=000000&sideNums=000000&currStreakLabel=000000&sideLabels=000000&dates=57606A&border_radius=16" alt="GitHub streak stats for jfpanchi">
   </picture>
 </div>
 
 <h3>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/title-connect-dark.svg">
-    <img src="assets/title-connect-light.svg" height="64" alt="Let's Connect!">
+    <img src="assets/title-connect-light.svg" height="56" alt="Let's Connect!">
   </picture>
 </h3>
 

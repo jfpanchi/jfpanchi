@@ -76,6 +76,9 @@ def font_face(key, chars):
     s.subset(sub)
     out = io.BytesIO()
     sub.flavor = "woff2"
+    # Fecha fija: así regenerar no cambia los SVG si nada cambió
+    sub.recalcTimestamp = False
+    sub["head"].modified = sub["head"].created
     sub.save(out)
     data = base64.b64encode(out.getvalue()).decode()
     return f"@font-face{{font-family:'{key}';src:url(data:font/woff2;base64,{data}) format('woff2');}}"
@@ -366,17 +369,11 @@ def build_toolbox(theme):
 def build_learning(theme):
     t = THEMES[theme]
     widths = [chip_width(l) for l, _ in LEARNING]
-    W = int(8 + sum(widths) + 14 * len(widths) + 60)
+    W = int(6 + sum(widths) + 14 * (len(widths) - 1) + 6)
     svg = Svg(W, 56, "Currently learning: " + ", ".join(l for l, _ in LEARNING))
     x = 6
     for label, icon in LEARNING:
         x += chip(svg, x, 10, label, icon, t, dashed=True) + 14
-    svg.css.append(
-        "@keyframes dots{0%,100%{opacity:1}50%{opacity:.2}}"
-        ".d{animation:dots 1.4s infinite}.d:nth-child(2){animation-delay:.2s}.d:nth-child(3){animation-delay:.4s}"
-        + REDUCED
-    )
-    svg.add("<g>" + "".join(f'<circle class="d" cx="{x + 6 + i * 13}" cy="27" r="4" fill="{t["fg"]}"/>' for i in range(3)) + "</g>")
     write("learning", theme, svg)
 
 
